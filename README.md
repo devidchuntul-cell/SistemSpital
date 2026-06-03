@@ -18,6 +18,7 @@ SistemSpital
 │
 
 └── 📁 SistemSpital/            # Folderul cu codul sursă
+    
     ├── 📄 Program.cs           # Punctul de pornire (Meniul, logica de consolă)
     
     ├── 📄 Doctor.cs            # Clasa pentru entitatea Medic (Nume, Specializare)
