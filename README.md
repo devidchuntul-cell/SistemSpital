@@ -9,16 +9,25 @@ Un sistem informatic multilevel pentru triaj clinic și gestiune spitalicească 
 Mai jos este prezentată organizarea fișierelor în cadrul soluției Visual Studio, respectând principiul modularității și al separării conceptelor (Separation of Concerns):
 
 SistemSpital
+
 │
 ├── 📄 SistemSpital.sln         # Soluția principală a proiectului
+
 │
 └── 📁 SistemSpital/            # Folderul cu codul sursă
+    
     ├── 📄 Program.cs           # Punctul de pornire (Meniul, logica de consolă)
+    
     ├── 📄 Doctor.cs            # Clasa pentru entitatea Medic (Nume, Specializare)
+    
     ├── 📄 Spital.cs            # Clasa pentru unitățile spitalicești (Nume, Adresă)
+    
     ├── 📄 Problema.cs          # Clasa nucleu (Corelează simptomul cu locația și doctorul)
+    
     ├── 📄 Pacient.cs           # Clasa de agregare superioară (Adună toate datele în fișă)
+    
     ├── 📄 Programare.cs        # Clasa pentru gestionarea recontrolului medical
+    
     └── 📄 SistemSpitalManager.cs # Managerul care populează cele 15 simptome clinice
 
 🚀 Caracteristici Principale
