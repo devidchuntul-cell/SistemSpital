@@ -10,9 +10,13 @@ Mai jos este prezentată organizarea fișierelor în cadrul soluției Visual Stu
 
 SistemSpital
 
+
 │
+
 ├── 📄 SistemSpital.sln         # Soluția principală a proiectului
+
 │
+
 └── 📁 SistemSpital/            # Folderul cu codul sursă
     ├── 📄 Program.cs           # Punctul de pornire (Meniul, logica de consolă)
     
